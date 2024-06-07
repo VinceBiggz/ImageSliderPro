@@ -1,6 +1,3 @@
-# ImageSliderPro
-ImageSliderPro repo.
-=======
 # Image Carousel Project
 
 This is a simple yet customizable image carousel built with HTML, CSS, and JavaScript.
