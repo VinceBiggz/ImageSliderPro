@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ImageSliderPro
 ImageSliderPro repo.
 =======
@@ -22,9 +21,7 @@ This is a simple yet customizable image carousel built with HTML, CSS, and JavaS
 
 ## Credits
 
-- Images from [source of your images] (replace with the actual source)
+- Images from Unsplash 
 
 ## License
-
-[Choose a license] (e.g., MIT License)
->>>>>>> 5a2d6b2 (Initial commit)
+MIT License
