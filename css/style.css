@@ -1,0 +1,86 @@
+/* General Container Styles */
+.carousel-container {
+    width: 80%; 
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Track for Images */
+  .carousel-track {
+    display: flex; 
+    transition: transform 0.5s ease-in-out; 
+  }
+  
+  /* Individual Image Styles */
+  .carousel-track img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  /* Arrow Button Styles */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease; /* Add a transition for hover effect */
+  }
+  
+  .carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  /* Pagination Dots Styles */
+  .carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-dot.active {
+    background-color: #333;
+  }
+  
+  /* Pause Button Styles */
+  .carousel-pause {
+    position: absolute; /* Position relative to the carousel container */
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    border: none;
+    padding: 8px 15px; /* Adjust padding as needed */
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease; /* Add a transition for hover effect */
+  }
+  
+  .carousel-pause:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+  }
+  
